@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Guia08App">
         <activity
+            android:name=".PersonaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AddPersonaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AdaptadorPersona"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
